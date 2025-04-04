@@ -1,0 +1,88 @@
+{
+    "name": "MCBasic Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4"
+    },
+    "tokenColors": [
+        {
+            "scope": "invalid.illegal.mcbasic",
+            "settings": {
+                "foreground": "#FF0000",
+                "fontStyle": "underline"
+            },
+            "name": "Invalid Variable/Function",
+        },
+        {
+            "scope": "comment.line.mcbasic",
+            "settings": {
+                "foreground": "#5b5d5e"
+            },
+            "name": "Variable"
+        },
+        {
+            "scope": "keyword.declaration.mcbasic",
+            "settings": {
+                "foreground": "#ce660a"
+            },
+            "name": "Keyword Declaration"
+        },
+        {
+            "scope": "keyword.operator.mcbasic",
+            "settings": {
+                "foreground": "#b960ac"
+            },
+            "name": "Keyword Declaration"
+        },
+        {
+            "scope": "keyword.control.mcbasic",
+            "settings": {
+                "foreground": "#CF8E6D"
+            },
+            "name": "Keyword Declaration"
+        },
+        {
+            "scope": "support.function.mcbasic",
+            "settings": {
+                "foreground": "#16a7f0"
+            },
+            "name": "Function Declaration"
+        },
+        {
+            "scope": "storage.type.mcbasic",
+            "settings": {
+                "foreground": "#14b796"
+            },
+            "name": "Storage Type"
+        },
+        {
+            "scope": "constant.numeric.mcbasic",
+            "settings": {
+                "foreground": "#D09A60"
+            },
+            "name": "Constant Numeric"
+        },
+        {
+            "scope": "string.quoted.double.mcbasic",
+            "settings": {
+                "foreground": "#d0db77"
+            },
+            "name": "String"
+        },
+        {
+            "scope": "variable.other.mcbasic",
+            "settings": {
+                "foreground": "#d7afaf"
+            },
+            "name": "Variable"
+        },
+        {
+            "scope": "support.namespace.mcbasic",
+            "settings": {
+                "foreground": "#e82bd8"
+            },
+            "name": "Parameter Variable"
+        }
+    ]
+}

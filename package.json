@@ -1,0 +1,79 @@
+{
+  "name": "mcbasic-lang",
+  "displayName": "MCBasic Lang",
+  "publisher": "mcbasic-lang",
+  "license": "MIT",
+  "description": "Syntax highlighting support for MCBasic lang",
+  "version": "0.0.1",
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "mcbasic",
+        "aliases": [
+          "MCBasic",
+          "mcbasic"
+        ],
+        "extensions": [
+          ".mcb"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mcbasic",
+        "scopeName": "source.mcb",
+        "path": "./syntaxes/mcbasic.tmLanguage.json"
+      }
+    ],
+    "semanticTokens": [
+      {
+        "id": "mcbasic-semantic",
+        "language": "mcbasic",
+        "legend": {
+          "tokenTypes": [
+            "variable",
+            "type",
+            "keyword"
+          ],
+          "tokenModifiers": [
+            "declaration"
+          ]
+        }
+      }
+    ],
+    "themes": [
+        {
+            "label": "MCBasic Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/mcbasic-theme-color-theme.json"
+        }
+    ],
+    "tokenColors": [
+        {
+            "scope": "invalid.illegal.mcbasic",
+            "settings": {
+                "foreground": "#FF0000",
+                "fontStyle": "underline",
+                "background": "#FFF0F0",
+                "tokenType": "warning"
+            }
+        }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.98.0",
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.8.2"
+  }
+}
