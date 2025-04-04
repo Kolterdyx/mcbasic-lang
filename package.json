@@ -3,6 +3,7 @@
   "displayName": "MCBasic Lang",
   "publisher": "mcbasic-lang",
   "license": "MIT",
+  "repository": "https://github.com/Kolterdyx/mcbasic-lang",
   "description": "Syntax highlighting support for MCBasic lang",
   "version": "0.0.1",
   "main": "./out/extension.js",
