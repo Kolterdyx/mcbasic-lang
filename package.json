@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "https://github.com/Kolterdyx/mcbasic-lang",
   "description": "Syntax highlighting support for MCBasic lang",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./out/extension.js",
   "scripts": {
     "compile": "tsc -p ."
